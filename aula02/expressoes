@@ -1,0 +1,58 @@
+# 1. Considere as variáveis A = 11 e B = 3 e calcule as seguintes expressões:
+
+print("Exercício 1: ")
+
+A = 11
+B = 3
+
+print(A + B * A)
+print(B * A + B)
+print(A // B)
+print(B % A)
+print(B // A)
+print(B - A / B)
+print(A / B - A * B)
+print(10 + A % B)
+print(10 - B // A)
+print(B // A - 50)
+print(A + B % A - A // B * 2)
+print(A * (B + A) - (A - B) / 2)
+print("-----------------------------------------------")
+
+# 2. Considere as variáveis com os valores X = True e Y = False e calcule as seguintes expressões:
+
+print("Exercício 2: ")
+
+X = True
+Y = False
+
+print(X and Y)
+print(X or Y)
+print(X and Y or X)
+print(X or Y or X)
+print(not (X or not Y))
+print(not (not X and not Y))
+print(not (X and Y))
+print(not X and Y or X)
+print(not (X and Y) and Y)
+print(X and Y or Y and not X)
+print(not (X or Y and Y or Y))
+print("-----------------------------------------------")
+# 3. Considere as variáveis com os valores A = 5, B = 9, X = not True, Y = False and True, M = "Casa"
+#e N = "Mesa" calcule as seguintes expressões:
+
+print("Exercício 3: ")
+
+A = 5
+B = 9
+X = not True
+Y = False and True
+M = "Casa"
+N = "Mesa"
+
+print(X and Y == X or Y)
+print(A * B <= B - A)
+print(not(A == B or not B != A))
+print(not(M != N and B > A))
+print(B + A <= A * B and Y)
+print(X and not Y or A // B != A % B)
